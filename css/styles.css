@@ -376,6 +376,11 @@ body {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-title {
   margin-bottom: 20px;
 }
@@ -452,9 +457,17 @@ body {
 .footer-socials {
   display: flex;
   align-items: baseline;
+  margin-left: 70px;
+  flex-direction: column;
 }
 
-.footer-social-link {
+.footer-social-list {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
 }
 
 /* -------------------- */
