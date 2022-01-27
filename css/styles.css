@@ -18,6 +18,7 @@
   --border-portfolio-color: #eeeeee;
   --hero-linear-gradient-color: #2f303a 40 %;
   --social-link-icon: #afb1b8;
+  --social-icon-background: rgba(255, 255, 255, 0.1);
 }
 
 p,
@@ -236,7 +237,8 @@ body {
 }
 
 .about-section,
-.team-section {
+.team-section,
+.clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -364,6 +366,49 @@ body {
   fill: currentColor;
 }
 
+.clients-title {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color-text);
+  margin-bottom: 50px;
+}
+
+.our-clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  margin-left: -30px;
+}
+
+.our-clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: baseline;
+}
+
+.our-clients-item {
+  width: 170px;
+  height: 92px;
+}
+
+.our-clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.our-clients-icon {
+  display: flex;
+  align-items: baseline;
+}
+
 /* -----------------------Footer----------------------- */
 
 .footer {
@@ -379,6 +424,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
+  outline: 3px solid red;
 }
 
 .footer-title {
@@ -454,20 +500,53 @@ body {
   color: var(--ineractive-color);
 }
 
+.footer-join-us {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+  margin-bottom: 20px;
+}
+
 .footer-socials {
   display: flex;
-  align-items: baseline;
   margin-left: 70px;
   flex-direction: column;
+  justify-content: center;
 }
 
 .footer-social-list {
   display: flex;
-  align-items: baseline;
+  justify-content: center;
+  outline: 3px solid red;
 }
 
 .footer-social-item + .footer-social-item {
   margin-left: 10px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--social-icon-background);
+  fill: var(--hero-text-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--ineractive-color);
+  color: var(--hero-text-color);
+}
+
+.footer-social-icon {
+  color: currentColor;
 }
 
 /* -------------------- */
