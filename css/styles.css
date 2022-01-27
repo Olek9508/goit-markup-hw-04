@@ -424,7 +424,6 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  outline: 3px solid red;
 }
 
 .footer-title {
@@ -521,7 +520,6 @@ body {
 .footer-social-list {
   display: flex;
   justify-content: center;
-  outline: 3px solid red;
 }
 
 .footer-social-item + .footer-social-item {
