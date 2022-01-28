@@ -561,10 +561,8 @@ body {
 }
 
 .footer-socials {
-  display: flex;
   margin-left: 70px;
   flex-direction: column;
-  justify-content: center;
 }
 
 .footer-social-list {
