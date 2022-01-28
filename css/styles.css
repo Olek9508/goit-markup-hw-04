@@ -474,10 +474,6 @@ body {
 }
 
 .footer-title {
-  margin-bottom: 20px;
-}
-
-.footer-title {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
@@ -485,6 +481,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   display: block;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
