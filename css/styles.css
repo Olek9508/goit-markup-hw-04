@@ -123,6 +123,7 @@ body {
 .link:hover,
 .link:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .current {
@@ -172,11 +173,13 @@ body {
 .mail:hover,
 .mail:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .phone:hover,
 .phone:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .nav-contact-icon:hover,
@@ -246,7 +249,9 @@ body {
 .hero-button:focus {
   color: var(--hero-text-color);
   background-color: var(--hero-button-ineractive-color);
+  border-color: var(--hero-button-ineractive-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  outline: none;
 }
 
 /* Sections */
@@ -397,6 +402,8 @@ body {
 .team-social-link:focus {
   background-color: var(--ineractive-color);
   color: var(--hero-text-color);
+  border-color: var(--ineractive-color);
+  outline: none;
 }
 
 .team-social-icon {
@@ -446,6 +453,7 @@ body {
 .our-clients-link:focus {
   color: var(--ineractive-color);
   border-color: var(--ineractive-color);
+  outline: none;
 }
 
 /* -----------------------Footer----------------------- */
@@ -507,6 +515,7 @@ body {
 .footer-map:hover,
 .footer-map:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .footer-email {
@@ -522,6 +531,7 @@ body {
 .footer-email:hover,
 .footer-email:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .footer-tel {
@@ -536,6 +546,7 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--ineractive-color);
+  outline: none;
 }
 
 .footer-join-us {
@@ -579,7 +590,9 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--ineractive-color);
+  border-color: var(--ineractive-color);
   color: var(--hero-text-color);
+  outline: none;
 }
 
 .footer-social-icon {
@@ -639,8 +652,10 @@ body {
 .buttons-portfolio:focus {
   color: var(--hero-text-color);
   background-color: var(--ineractive-color);
+  border-color: var(--ineractive-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 /* Main */
